@@ -18,20 +18,23 @@ items:
 <h2>Installation</h2>
 <ol>
   <li>Go to your Keycloak Admin console, select the correct OpenTalk realm, select "Clients" and "Create Client"
-  <ul>
-    <li>Client type: OpenID Connect</li>
-    <li>Client ID: Pick something you can remember (e.g. opentalk-calcom)</li>
-    <li>Name: Pick a human readable name (e.g. OpenTalk Cal.com integration)
-    <li>On the second page: Activate "Client authentication" Toggle</li>
-    <li>On the third page: Add your Cal.com URL followed by /api/integrations/opentalk/callback to "Valid Redirect URIs" (e.g. https://cal.mycompany.com/api/integrations/opentalk/callback)
-  </ul>
+    <ul>
+      <li>Client type: OpenID Connect</li>
+      <li>Client ID: Pick something you can remember (e.g. opentalk-calcom)</li>
+      <li>Name: Pick a human readable name (e.g. OpenTalk Cal.com integration)
+      <li>On the second page: Activate "Client authentication" Toggle</li>
+      <li>On the third page: Add your Cal.com URL followed by /api/integrations/opentalk/callback to "Valid Redirect URIs" (e.g. https://cal.mycompany.com/api/integrations/opentalk/callback)</li>
+    </ul>
   </li>
   <li>Save the Client, find the "Credentials" tab and write down your "Client secret"</li>
   <li>Install this App in Cal.com and enter the following variables:
-    <ul><li>`base_url`: This is the URL of your OpenTalk controller</li>
-    <li>`web_url`: This is the URL of your OpenTalk web interface</li>
-    <li>`client_id`: Taken from the Keycloak Client</li>
-    <li>`client_secret`: Taken from the Keycloak Client</li></ul></li>
+    <ul>
+      <li>`base_url`: This is the URL of your OpenTalk controller</li>
+      <li>`web_url`: This is the URL of your OpenTalk web interface</li>
+      <li>`client_id`: Taken from the Keycloak Client</li>
+      <li>`client_secret`: Taken from the Keycloak Client</li>
+    </ul>
+  </li>
 </ol>
 
 
