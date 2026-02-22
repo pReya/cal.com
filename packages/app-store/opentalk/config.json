@@ -1,0 +1,26 @@
+{
+  "/*": "Don't modify slug - If required, do it using cli edit command",
+  "name": "OpenTalk",
+  "slug": "opentalk",
+  "type": "opentalk_video",
+  "logo": "icon.png",
+  "url": "https://opentalk.eu",
+  "variant": "conferencing",
+  "categories": [
+    "conferencing"
+  ],
+  "publisher": "bitbetter GmbH",
+  "email": "info@bitbetter.de",
+  "description": "OpenTalk is a self-hostable open source and GDPR-compliant video conferencing platform. It is designed to be easy to use and provides a secure and private way for people to connect and collaborate online.",
+  "isTemplate": false,
+  "isOAuth": true,
+  "appData": {
+    "location": {
+      "linkType": "dynamic",
+      "type": "integrations:opentalk_video",
+      "label": "OpenTalk"
+    }
+  },
+  "__createdUsingCli": true,
+  "__template": "basic"
+}

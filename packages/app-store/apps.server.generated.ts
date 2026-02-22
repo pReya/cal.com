@@ -48,6 +48,7 @@ export const apiHandlers = {
   nextcloudtalk: import("./nextcloudtalk/api"),
   office365calendar: import("./office365calendar/api"),
   office365video: import("./office365video/api"),
+  opentalk: import("./opentalk/api"),
   paypal: import("./paypal/api"),
   ping: import("./ping/api"),
   "pipedrive-crm": import("./pipedrive-crm/api"),
